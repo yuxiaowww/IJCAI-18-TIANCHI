@@ -1216,7 +1216,7 @@ if __name__ == '__main__':
     test = get_label_feat(test)
     test = merge_feat(test,testFeat)
     ans = modelXgb(train,test)
-    ans.to_csv('20180409kpf.txt',sep=' ',line_terminator='\r',index=False)
+    ans.to_csv('ans.txt',sep=' ',line_terminator='\r',index=False)
 
     
 
