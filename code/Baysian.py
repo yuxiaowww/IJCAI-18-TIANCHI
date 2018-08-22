@@ -2,7 +2,7 @@
 """
 Created on Fri Mar 23 16:00:01 2018
 
-@author: CCL
+@author: yuwei
 """
 import random
 import numpy as np
